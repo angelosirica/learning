@@ -1,0 +1,114 @@
+((x0 OR y0)OR(x1 XOR y1))
+The value of the function with	X=[0,0]	Y=[0,0]	is 0	Gate 0
+Key 0
+0000 - 22 f5 35 d6 54 e8 89 9f-52 31 6f 29 fc d8 46 9b   ".5.T...R1o)..F.
+Key 1
+0000 - e8 d0 94 dd 52 f9 9e 75-3c 51 ae 2d 66 51 29 2b   ....R..u<Q.-fQ)+
+Garbling input 0: 1
+Garbling input 1: 1
+
+
+Gate 1
+Key 0
+0000 - 50 fa 3e ea dc c7 8b 4c-10 e1 ee 8e f7 6f fe 10   P.>....L.....o..
+Key 1
+0000 - 29 22 73 e4 39 d9 da 1b-9a 80 41 ff a6 d3 e8 e8   )"s.9.....A.....
+Garbling input 0: 1
+Garbling input 1: 1
+
+
+Gate 2
+Key 0
+0000 - 15 67 15 12 1d a8 ae 47-0f 21 08 6e 72 9e a8 1b   .g.....G.!.nr...
+Key 1
+0000 - a7 2c b7 fe 14 ed f1 e2-a6 d9 11 39 48 ac f8 71   .,.........9H..q
+Garbling input 0: 1
+Garbling input 1: 0
+
+
+Input gate 0
+Key 0:
+0000 - 22 f5 35 d6 54 e8 89 9f-52 31 6f 29 fc d8 46 9b   ".5.T...R1o)..F.
+Key 1:
+0000 - e8 d0 94 dd 52 f9 9e 75-3c 51 ae 2d 66 51 29 2b   ....R..u<Q.-fQ)+
+
+
+Input gate 1
+Key 0:
+0000 - 50 fa 3e ea dc c7 8b 4c-10 e1 ee 8e f7 6f fe 10   P.>....L.....o..
+Key 1:
+0000 - 29 22 73 e4 39 d9 da 1b-9a 80 41 ff a6 d3 e8 e8   )"s.9.....A.....
+
+
+table[0][0] holding result for (1,0)
+Plaintext: 
+0000 - ba fa 72 fa b1 be c2 84-19 21 e9 03 77 a9 eb 01   ..r......!..w...
+with key:
+0000 - 50 fa 3e ea dc c7 8b 4c-10 e1 ee 8e f7 6f fe 10   P.>....L.....o..
+obtaining:
+0000 - 87 65 8e c5 e3 ee 5b af-43 00 3f b8 3e 65 1e      .e....[.C.?.>e.
+0010 - <SPACES/NULS>
+with key:
+0000 - e8 d0 94 dd 52 f9 9e 75-3c 51 ae 2d 66 51 29 2b   ....R..u<Q.-fQ)+
+obtaining:
+0000 - ae 59 ae 33 bc 2b 64 b7-8a fc b6 29 3a 03 a6 ff   .Y.3.+d....):...
+
+
+
+table[0][1] holding result for (1,1)
+Plaintext: 
+0000 - 9f d1 c1 66 f3 4d f6 de-37 81 fe 17 57 34 9c      ...f.M..7...W4.
+0010 - <SPACES/NULS>
+with key:
+0000 - 29 22 73 e4 39 d9 da 1b-9a 80 41 ff a6 d3 e8 e8   )"s.9.....A.....
+obtaining:
+0000 - e2 85 4b 6f 35 1c 5c b2-64 42 b9 27 04 98 d8 de   ..Ko5.\.dB.'....
+with key:
+0000 - e8 d0 94 dd 52 f9 9e 75-3c 51 ae 2d 66 51 29 2b   ....R..u<Q.-fQ)+
+obtaining:
+0000 - 1e a4 38 26 b5 1d 78 f5-ea cf 12 bb 1b 81 d4 30   ..8&..x........0
+
+
+
+table[1][0] holding result for (0,0)
+Plaintext: 
+0000 - da d3 4d 42 c1 4a 64 24-8a 9a b7 2d 74 c5 32      ..MB.Jd$...-t.2
+0010 - <SPACES/NULS>
+with key:
+0000 - 50 fa 3e ea dc c7 8b 4c-10 e1 ee 8e f7 6f fe 10   P.>....L.....o..
+obtaining:
+0000 - 98 8d af a0 27 ee b8 81-d0 ca f0 d3 df f5 04 5a   ....'..........Z
+with key:
+0000 - 22 f5 35 d6 54 e8 89 9f-52 31 6f 29 fc d8 46 9b   ".5.T...R1o)..F.
+obtaining:
+0000 - 53 32 9d 50 85 e2 66 6c-8d f3 67 2c 29 d8 92 fa   S2.P..fl..g,)...
+
+
+
+table[1][1] holding result for (0,1)
+Plaintext: 
+0000 - 59 34 3b 67 c6 ab 03 89-77 9d 66 83 40 2c d2 01   Y4;g....w.f.@,..
+with key:
+0000 - 29 22 73 e4 39 d9 da 1b-9a 80 41 ff a6 d3 e8 e8   )"s.9.....A.....
+obtaining:
+0000 - e7 c3 f6 eb 5e 62 08 d0-f6 f5 04 d2 c0 94 32 3a   ....^b........2:
+with key:
+0000 - 22 f5 35 d6 54 e8 89 9f-52 31 6f 29 fc d8 46 9b   ".5.T...R1o)..F.
+obtaining:
+0000 - 45 cd e8 64 aa 65 21 5a-d8 cc 1b 12 c8 2f 7a a4   E..d.e!Z...../z.
+
+
+
+Decrypting table[1][0]
+Ciphertext: 
+0000 - 53 32 9d 50 85 e2 66 6c-8d f3 67 2c 29 d8 92 fa   S2.P..fl..g,)...
+with key:
+0000 - 22 f5 35 d6 54 e8 89 9f-52 31 6f 29 fc d8 46 9b   ".5.T...R1o)..F.
+obtaining:
+0000 - 98 8d af a0 27 ee b8 81-d0 ca f0 d3 df f5 04 5a   ....'..........Z
+with key:
+0000 - 50 fa 3e ea dc c7 8b 4c-10 e1 ee 8e f7 6f fe 10   P.>....L.....o..
+obtaining:
+0000 - da d3 4d 42 c1 4a 64 24-8a 9a b7 2d 74 c5 32      ..MB.Jd$...-t.2
+0010 - <SPACES/NULS>
+encoded value is 0
