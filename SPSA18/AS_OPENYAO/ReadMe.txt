@@ -1,4 +1,5 @@
-SPSA 2018 
+SPSA 2018 - OpenSSL / YAO
+------------------------------------------
 
 This program:
 1) generates RSA Keys
@@ -13,4 +14,13 @@ This program:
 Programming Language: C
 Required External Library: OpenSSL
 
+**** ATTENTION ****
+Configure your folders to be able to execute the program, to read and write files.
+You should have the following folders (asis): 
+- /KEYS/RSA
+- /KEYS/DSA
+- /CIT/
+- /SIGN/
+
+------------------------------------------
 Made by Angelo Sirica
